@@ -25,6 +25,6 @@ npm run build
 npm run build --report
 ```
 ## Learn More
-> Please Visit Http://www.sprit.vips
+> Please Visit Http://www.sprit.vip
 
 
