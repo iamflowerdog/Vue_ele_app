@@ -4,7 +4,7 @@
       <ele-header></ele-header>
 
       <!--Tabs-->
-      <div class="tab">
+      <div class="tab border-1px">
 
         <div class="tab-item">
           <router-link to="/goods">商品</router-link>
@@ -36,11 +36,27 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+
+  @import "./common/stlyus/mixin.styl"
+
+
   .tab
+    height 40px
+    line-height 40px
+    display flex
+    border-1px(rgba(7,17,27,.1))
+
     .tab-item
-      display: inline-block
-      .router-link-active
-        color #42b983
+      width 0
+      flex 1
+      font-size 14px
+      text-align center
+
+      & > a
+        display block
+        color rgb(77,85,93)
+        &.active
+          color rgb(240,20,20)
 
 
 
