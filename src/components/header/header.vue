@@ -13,7 +13,7 @@
             <span>蜂鸟专送/38分钟必达</span>
           </div>
           <div class="supports">
-            <span class="icon decrease"></span>
+            <span class="icon discount"></span>
             <span class="text">在线支付 满28送范冰冰</span>
           </div>
         </div>
