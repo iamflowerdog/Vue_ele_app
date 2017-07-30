@@ -90,7 +90,38 @@ border-1px($color)
       -webkit-transform transform scaleY(.33333)
       transform scaleY(.33333)
 ```
+#### 垂直对其
 
+- `inline-block` 元素 自身设置 `vertical-align: top` 可以对齐
+
+##### 注意: chorme pc端 最小字体 `font-size: 12px` 移动端 可以比 12px小
+
+
+#### 文本省略号设置
+
+- 三者缺一不可
+
+```
+.bulletin-wrapper
+  line-height 28px
+  height 28px
+  text-overflow ellipsis
+  white-space nowrap
+  overflow hidden
+```
+
+#### 模糊背景
+
+```
+.background
+  position absolute
+  width 100%
+  height 100%
+  top 0
+  left 0
+  z-index -1
+  filter blur(10px)
+```
 
 
 
